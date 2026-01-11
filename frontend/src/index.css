@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.science-gothic {
+  font-family: "Science Gothic", sans-serif;
+  font-weight: 600;
+}
