@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Results from "./Results";
 const PredictHouse = () => {
-  const url = "https://price-predictor-sabkuchbecho-9u1u.onrender.com/predict"
+  const url = "https://price-predictor-sabkuchbecho-9u1u.onrender.com"
   const [price, setPrice] = useState(0);
   const [buttonClicked, setbuttonClicked] = useState(false);
   var calculatedPrice;
