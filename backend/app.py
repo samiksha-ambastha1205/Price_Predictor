@@ -17,9 +17,9 @@ app = FastAPI()
 def root():
     return {"message": "price predictor"}
 origins = [
-        "http://localhost:5173/predictprice",
-        "http://localhost:5173"
-        ]
+    "https://price-predictor-2-w2uo.onrender.com",
+    "https://price-predictor-2-w2uo.onrender.com/predictprice"
+]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,

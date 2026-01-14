@@ -4,7 +4,7 @@ import Results from "./Results";
 
 const PredictCar = () => {
 
-  const url = "http://127.0.0.1:8000"
+  const url = "https://price-predictor-sabkuchbecho-9u1u.onrender.com/predict"
   const [price, setPrice] = useState(0);
   const [buttonClicked, setbuttonClicked] = useState(false);
   var calculatedPrice;
